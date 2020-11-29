@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root {
+    --primary: #141c3a;
+    --secondary:#7510F7;
+    --gray: #F3F4F6;
+    --dark-gray: #6B7280;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 600px;
+    margin: auto;
+}
+* {
+    box-sizing: border-box;
+}
+hr {
+    margin : 2rem 0rem;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.link-primary {
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary);
+    border-radius: 2rem;
+    border: 2px solid var(--primary);
+}
+
+.link-secondary {
+    color:var(--secondary);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 2px solid var(--secondary);
+}
+
+ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+
+/* .nav-pills{
+    display: inline;
+    align-items: end;
+    
+    padding: 0rem 0.5rem;
+} */
+/* .nav {
+    background-color: var(--primary);
+    padding: 1rem, 1rem, 0rem, 1rem;
+}
+
+.nav .brand{
+    display: inline;
+    color: var(--secondary);
+    padding-left: 1rem;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.nav ul {
+    
+    text-align: right;
+}
+
+.nav li a{
+    color: white;
+}
+
+.active{
+    font-weight: bolder;
+} */
+
+.navigation {
+    background-color: var(--primary);
+    padding: 1rem;
+    color: white;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .brand {
+    font-weight: bolder;
+    font-size: large;
+    color: var(--secondary);
+    
+}
+
+.navigation ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white
+}
+
+.navigation .active {
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--primary);
+    padding: 1rem;
+    color: white;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    text-align: center;
+    padding-inline-start: 0px;
+}
+
+footer li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.hero {
+    color: var(--dark-gray);
+    display: block;
+}
+.hero img {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+    
+}
+
+.ow{
+    background: var(--gray);
+}
