@@ -138,6 +138,8 @@ footer .footer-header {
 }
 
 .hero {
+    pdding: 2rem;
+    padding-top: 5 rem;
     color: var(--dark-gray);
     display: block;
 }
